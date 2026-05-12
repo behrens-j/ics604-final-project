@@ -24,3 +24,17 @@ This project uses `uv` for lightning-fast dependency management. To set up your 
 
 ```bash
 uv pip install -r requirements.txt
+```
+### Running the Notebook
+
+Once your environment is set up and activated, you have two options to run the analysis:
+
+**Option 1: Jupyter in the Browser**
+
+Launch Jupyter directly from your terminal:
+```bash
+jupyter notebook
+```
+**Option 2: Visual Studio Code**
+
+Open the project folder in VS Code and click on ```ICS604_final_project_behrens.ipynb```. Ensure your ```uv``` environment (e.g., ```.venv```) is selected by clicking Select Kernel in the top right corner, then run the cells sequentially.
